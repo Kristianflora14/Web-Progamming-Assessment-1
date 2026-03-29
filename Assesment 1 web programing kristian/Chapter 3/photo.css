@@ -1,0 +1,45 @@
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* MAIN */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* TITLE */
+h1 {
+  margin-bottom: 30px;
+}
+
+/* FIGURE */
+figure {
+  margin-bottom: 30px;
+}
+
+/* IMAGES */
+img {
+  border-radius: 10px;
+
+  /* CSS FILTERS */
+  filter: grayscale(30%) brightness(95%) contrast(110%);
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+img:hover {
+  filter: none;
+  transform: scale(1.05);
+}
+
+/* CAPTION */
+figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
